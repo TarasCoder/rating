@@ -1,0 +1,61 @@
+body {
+  font-family: Tahoma, sans-serif;
+  color: #878787;
+  background-color: #fff;
+  margin-top: 20px;
+}
+.block {
+  border: 1px none #878787;
+  padding: 3px;
+  margin: 0px 0px;
+}
+#allUsers {
+  width: 500px;
+  margin: 0 auto;
+}
+.headerTxt {
+  font-weight: bold;
+}
+.isVerified {
+  padding: 2px 5px;
+  background-color: #e2f0d9;
+}
+.avgRatingBlock {
+  text-align: center;
+}
+.starRatingMain {
+  margin: 10px auto;
+}
+.ratingNumb {
+  font-size: 45px;
+  font-weight: bold;
+}
+.bar {
+  display: block;
+  width: 100px;
+  height: 6px;
+  background-color: #efc71d;
+}
+.bar-wrapper {
+  background-color: #d0d0d0;
+  width: 100px;
+  overflow: hidden;
+  margin-left: 10px;
+}
+.detailed-block-item {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 4px;
+}
+.detailed-rating-block {
+  width: 130px;
+}
+.main-rating-block {
+  margin: 0 auto 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid silver;
+  border-radius: 20px;
+  width: 370px;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- adding Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <!-- adding jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+
+
+    <div class="main-rating-block">
+    
+      <div class="avgRatingBlock">
+          <h3 class="ratingNumb" id="ratingNumb"></h3>
+          <div class="starRatingMain" id="rateYo"></div>
+          <p class="reviewsNumb" id="reviewsNumb"></p>
+      </div>
+      
+      <div class="detailed-rating-block">
+          <div class="detailed-block-item">
+            <div>5</div>
+            <div class="bar-wrapper">
+              <div class="bar" id="bar5"></div>
+            </div>
+          </div>
+          <div class="detailed-block-item">
+            <div>4</div>
+            <div class="bar-wrapper">
+              <div class="bar" id="bar4"></div>
+            </div>
+          </div>
+          <div class="detailed-block-item">
+            <div>3</div>
+            <div class="bar-wrapper">
+              <div class="bar" id="bar3"></div>
+            </div>
+          </div>
+          <div class="detailed-block-item">
+            <div>2</div>
+            <div class="bar-wrapper">
+              <div class="bar" id="bar2"></div>
+            </div>
+          </div>
+          <div class="detailed-block-item">
+            <div>1</div>
+            <div class="bar-wrapper">
+              <div class="bar" id="bar1"></div>
+            </div>
+          </div>
+      </div>
+      
+  </div>
+  
+  
+  
+  <table class="table" id="allUsers">
+    <thead>
+      <th>Index</th>
+      <th>Full Name</th>
+      <th>Rating</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Bobby Sanders</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Sam Moreck</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Bibi Kamile</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Stacey Marik</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>John Smith</td>
+        <td>4</td>
+      </tr>
+    </tbody>
+  </table>
+  
+
+    <script src="app.js"></script>
+  </body>
+</html>
